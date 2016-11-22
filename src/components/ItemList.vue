@@ -15,9 +15,10 @@
   </ul>
   </div>
 </template>
+
 <script>
   export default{
-    props: [''],
+    props: [],
     data() {
       return {
         items: this.$store.state.items
@@ -29,6 +30,7 @@
     components: {}
   }
 </script>
+
 <style scoped>
   ul {
     list-style: none;
